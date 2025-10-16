@@ -55,7 +55,7 @@ Selanjutnya tambahkan deklarasi CSS pada head untuk membuat float element, seper
 
 **Hasil :**
 
-![gambar](https://github.com/Fathir4118/Lab4web/blob/main/Gambar/IMG_20251017_005330.jpg) 
+![gambar](https://github.com/Fathir4118/Lab4web/blob/main/Gambar/IMG_20251017_010418.jpg) 
 
 **Mengatur Clearfix Element**
 
@@ -73,7 +73,7 @@ Tambahkan element div lainnya seteleah div3. Kemudian atur property clear pada C
 </section>
 ```
 
-```html
+```css
 .div4 {
  background: #ADD8E6;
  clear: right;
@@ -88,9 +88,9 @@ Tambahkan element div lainnya seteleah div3. Kemudian atur property clear pada C
 
 **Hasil :**
 
-![gambar](https://github.com/Fathir4118/Lab4web/blob/main/Gambar/IMG_20251017_005345.jpg) 
+![gambar](https://github.com/Fathir4118/Lab4web/blob/main/Gambar/IMG_20251017_010431.jpg) 
 
-**Buat Layout Sederhana**
+## **Buat Layout Sederhana**
 
 Buat folder baru dengan nama lab4_layout, kemudian buatlah file baru didalamnya dengan nama home.html, dan file css dengan nama style.css.
 
@@ -132,7 +132,7 @@ Buat folder baru dengan nama lab4_layout, kemudian buatlah file baru didalamnya 
 
 **hasil:**
 
-![gambar]() 
+![gambar](https://github.com/Fathir4118/Lab4web/blob/main/Gambar/IMG_20251017_010452.jpg) 
 
 Kemudian tambahkan kode CSS untuk membuat layoutnya.
 
@@ -166,7 +166,7 @@ header h1 {
 
 **Hasil :**
 
-! [gambar]() 
+![gambar](https://github.com/Fathir4118/Lab4web/blob/main/Gambar/IMG_20251017_013227.jpg) 
 
 **Membuat Navigasi**
 
@@ -190,6 +190,11 @@ nav a:hover {
  background-color: #2b83ea;
 }
 ```
+
+**Hasil :**
+
+
+![gambar](https://github.com/Fathir4118/Lab4web/blob/main/Gambar/IMG_20251017_013240.jpg) 
 
 **Membuat Hero Panel**
 
