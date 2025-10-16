@@ -2,6 +2,7 @@
 
 
 **Langkah-langkah Praktikum**
+
 Persiapan membuat dokumen HTML dengan nama file lab4_box.html seperti berikut.
 
 ```html
@@ -54,9 +55,10 @@ Selanjutnya tambahkan deklarasi CSS pada head untuk membuat float element, seper
 
 **Hasil :**
 
-![gambar]() 
+![gambar](https://github.com/Fathir4118/Lab4web/blob/main/Gambar/IMG_20251017_005330.jpg) 
 
 **Mengatur Clearfix Element**
+
 Clearfix digunakan untuk mengatur element setelah float element. Property clear digunakan untuk mengaturnya.
 
 Tambahkan element div lainnya seteleah div3. Kemudian atur property clear pada CSS, seperti berikut.
@@ -86,12 +88,111 @@ Tambahkan element div lainnya seteleah div3. Kemudian atur property clear pada C
 
 **Hasil :**
 
-![gambar]() 
+![gambar](https://github.com/Fathir4118/Lab4web/blob/main/Gambar/IMG_20251017_005345.jpg) 
 
 **Buat Layout Sederhana**
+
 Buat folder baru dengan nama lab4_layout, kemudian buatlah file baru didalamnya dengan nama home.html, dan file css dengan nama style.css.
 
-**Membuat Hero Panel.**
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Layout Sederhana</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <div id="container">
+ </div>
+</body>
+</html>
+```
+
+```html
+<header>
+ <h1>Layout Sederhana</h1>
+</header>
+<nav>
+ <a href="home.html" class="active">Home</a>
+ <a href="artikel.html">Artikel</a>
+ <a href="about.html">About</a>
+ <a href="kontak.html">Kontak</a>
+</nav>
+<section id="hero"></section>
+<section id="wrapper">
+ <section id="main"></section>
+ <aside id="sidebar"></aside>
+</section>
+<footer>
+ <p>&copy; 2021 - Universitas Pelita Bangsa</p>
+</footer>
+```
+
+**hasil:**
+
+![gambar]() 
+
+Kemudian tambahkan kode CSS untuk membuat layoutnya.
+
+```css
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+/* Reset CSS */
+* {
+ margin: 0;
+ padding: 0;
+}
+body {
+ line-height:1;
+ font-size:100%;
+ font-family:'Open Sans', sans-serif;
+ color:#5a5a5a;
+}
+#container {
+ width: 980px;
+ margin: 0 auto;
+ box-shadow: 0 0 1em #cccccc;
+}
+/* header */
+header {
+ padding: 20px;
+}
+header h1 {
+ margin: 20px 10px;
+ color: #b5b5b5;
+}
+```
+
+**Hasil :**
+
+! [gambar]() 
+
+**Membuat Navigasi**
+
+Kemudian selanjutnya mengatur navigasi.
+
+```css
+nav {
+ display: block;
+ background-color: #1f5faa;
+}
+nav a {
+ padding: 15px 30px;
+ display: inline-block;
+ color: #ffffff;
+ font-size: 14px;
+ text-decoration: none;
+ font-weight: bold;
+}
+nav a.active,
+nav a:hover {
+ background-color: #2b83ea;
+}
+```
+
+**Membuat Hero Panel**
+
 Selanjutnya membuat hero panel. Tambahkan kode HTML dan CSS seperti berikut.
 
 ```html
@@ -124,9 +225,10 @@ pretium ac.</p>
 
 **Hasil :**
 
-![gambar]() 
+![gambar](https://github.com/Fathir4118/Lab4web/blob/main/Gambar/IMG_20251017_005330.jpg) 
 
 **Mengatur Layout Main dan Sidebar**
+
 Selanjutnya mengatur main content dan sidebar, tambahkan CSS float.
 
 ```css
@@ -147,6 +249,7 @@ Selanjutnya mengatur main content dan sidebar, tambahkan CSS float.
 ```
 
 **Membuat Sidebar Widget**
+
 Kemudian selanjutnya menambahkan element lain dalam sidebar.
 
 ```html
@@ -169,6 +272,7 @@ pharetra est nunc, nec pretium nunc pretium ac.</p>
  </div>
 </aside>
 ```
+
 Kemudian tambahkan CSS
 
 ```css
@@ -204,7 +308,7 @@ Kemudian tambahkan CSS
 
 **Hasil :**
 
-![gambar]() 
+![gambar](https://github.com/Fathir4118/Lab4web/blob/main/Gambar/IMG_20251017_005345.jpg) 
 
 **Menambahkan Elemen lainnya pada Main Content**
 
@@ -286,9 +390,10 @@ box img {
 
 **Hasil :**
 
-![gambar]() 
+![gambar](https://github.com/Fathir4118/Lab4web/blob/main/Gambar/IMG_20251017_005403.jpg) 
 
 **Menambahkan Content Artikel**
+
 Selanjutnya membuat content artikel. Tambahkan HTML berikut pada main content.
 
 ```html
@@ -340,11 +445,11 @@ Tambahkan CSS
 }
 ```
 
-![gambar]() 
+![gambar](https://github.com/Fathir4118/Lab4web/blob/main/Gambar/IMG_20251017_005418.jpg) 
 
 ## **TUGAS!**
 
-![gambar]() 
+![gambar](https://github.com/Fathir4118/Lab4web/blob/main/Gambar/IMG_20251017_005523.jpg) 
 
 # Hasil :
 
@@ -476,6 +581,7 @@ pharetra est nunc, nec pretium nunc pretium ac.</p>
 ```
 
 **Code HTML Single Layout**
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -520,6 +626,7 @@ pharetra est nunc, nec pretium nunc pretium ac.</p>
 ```
 
 **Code style CSS**
+
 ```css
 /* import google font */ 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
@@ -799,7 +906,9 @@ footer {
 # **Tampilan WEB**
 
 **Home**
-![gambar]() 
+
+![gambar](https://github.com/Fathir4118/Lab4web/blob/main/Gambar/IMG_20251017_005442.jpg) 
 
 **About**
-![gambar]() 
+
+![gambar](https://github.com/Fathir4118/Lab4web/blob/main/Gambar/IMG_20251017_005500.jpg) 
